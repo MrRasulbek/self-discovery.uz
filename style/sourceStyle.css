@@ -1,0 +1,109 @@
+/* This content begins from here please take note of that */
+/* This content ends from here please take note of that */
+
+/* Fonts import part begins from here please take note of that */
+@import "./fonts.css";
+/* Fonts import part ends from here please take note of that */
+
+/* This unversal code part begins from here from here please take note of that */
+* {
+               padding: 0px;
+               margin: 0px;
+}
+
+body {
+               overflow: hidden;
+}
+
+/* This unversal code part begins from here from here please take note of that */
+
+/* This bootstrap universal counterEffect code part begins from here please take note of that */
+a {
+               text-decoration: unset;
+               color: unset;
+}
+
+ul {
+               list-style: none;
+               padding: unset;
+               display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+               margin: 0px;
+}
+
+/* This bootstrap universal counterEffect code part ends from here please take note of that */
+
+/* Text-fonts begins from here please take note of that */
+.text-font-1 {
+               font-size: 14px;
+               line-height: 24px;
+               letter-spacing: 0.2px;
+}
+
+.text-font-2 {
+               font-size: 16px;
+               line-height: 24px;
+               letter-spacing: 0.1px;
+}
+
+.text-font-3 {
+               font-size: 20px;
+               line-height: 30px;
+               letter-spacing: 0.2px;
+}
+
+.text-font-4 {
+               font-size: 24px;
+               line-height: 32px;
+               letter-spacing: 0.1px;
+}
+
+.text-font-5 {
+               font-size: 40px;
+               line-height: 57px;
+               letter-spacing: 0.2px;
+}
+
+.text-font-6 {
+               font-size: 58px;
+               line-height: 80px;
+               letter-spacing: 0.2px;
+}
+
+/* Text-fonts ends from here please take note of that */
+/* This content begins from here please take note of that */
+:root {
+               --m: "Montserrat";
+               --r: "Roboto";
+               --blue: #23A6F0;
+}
+
+/* This content ends from here please take note of that */
+
+/* Header begins from here please take note of that */
+
+/* First-section begins from here please take note of that */
+.header_source{
+               background-color: rgba(0, 0, 0, 0.808);
+}
+.source_box{
+               height: 100vh;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+.source_information{
+               color: white;
+               text-align: center;
+}
+/* First-section ends from here please take note of that */
+
+/* Header ends from here please take note of that */
