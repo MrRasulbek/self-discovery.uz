@@ -1,4 +1,3 @@
-let logo = document.querySelector(".logo")
 let root = document.querySelector(":root")
 function random(min, max) {
                return Math.round(Math.random() * (max - min) + min)
@@ -9,6 +8,10 @@ function color() {
                let b = random(0,255)
                return `rgb(${r},${g},${b})`
 }
-logo.addEventListener("click", function () {
-               root.style.setProperty("--blue", color())
-})
+function settingColor(){
+               setTimeout(() => {
+                              root.style.setProperty("--blue", color())
+                              settingColor()
+               }, 2500);
+}
+settingColor()
